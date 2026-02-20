@@ -1,0 +1,44 @@
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+
+# Ignorar TODO dentro de /wp
+/wp/*
+
+# Pero permitir navegar carpetas necesarias
+!/wp/
+!/wp/wp-content/
+!/wp/wp-content/themes/
+!/wp/wp-content/plugins/
+!/wp/wp-content/mu-plugins/
+
+# Permitir todo dentro de esas carpetas versionadas
+!/wp/wp-content/themes/**/*
+!/wp/wp-content/plugins/**/*
+!/wp/wp-content/mu-plugins/**/*
+
+# Aun dentro de wp-content, uploads nunca
+/wp/wp-content/uploads/
+
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# PHP / Composer (si aplica)
+vendor/
+composer.lock
+
+# Node (si aplica)
+node_modules/
+dist/
+build/

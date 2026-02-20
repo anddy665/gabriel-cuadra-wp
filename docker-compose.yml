@@ -1,0 +1,51 @@
+services:
+  db:
+    image: mysql:8.0
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    environment:
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    networks:
+      - internal
+
+  wp:
+    image: ${WP_IMAGE}
+    container_name: gabriel-cuadra-wp
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: ${DB_NAME}
+      WORDPRESS_DB_USER: ${DB_USER}
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+      WORDPRESS_TABLE_PREFIX: ${WORDPRESS_TABLE_PREFIX}
+      WORDPRESS_DEBUG: ${WORDPRESS_DEBUG}
+    volumes:
+      # ✅ Todo WordPress queda visible en tu máquina
+      - ./wp:/var/www/html
+
+      # ✅ PHP config
+      - ./config/php.ini:/usr/local/etc/php/conf.d/99-local.ini:ro
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - internal
+      - web
+
+volumes:
+  db_data:
+
+networks:
+  internal:
+  web:
+    external: true
