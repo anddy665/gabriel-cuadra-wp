@@ -1,0 +1,296 @@
+/**
+ * Easy Demo Import
+ *
+ * Apprentice Admin Page Styles
+ **/
+
+/*** WP Dashboard ***/
+	li#toplevel_page_jedi_apprentice_menu img { width: 20px; }
+	li#toplevel_page_jedi_apprentice_menu.wp-menu-open img { filter: invert(1); }
+
+/*** IMPORT OPTIONS ***/
+	.toplevel_page_jedi_apprentice_menu #wpfooter { display: none; }
+	.jedi_import_options_container {
+		max-width: 900px; }
+	.jedi_import_options_container p {
+		max-width: 800px;
+		margin-left: 35px;
+	}
+	.jedi_import_options_container table {
+		margin: 0px 25px 0px !important;
+		border-spacing: 0px; }
+	.jedi_import_options_container table td {
+		padding: 10px;
+		height: 30px;
+	}
+	.jedi_import_options_container table h3,
+	.jedi_import_options_container table p {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.jedi_import_options_container th {
+		text-align: left;
+		width: 200px;
+		padding-left: 10px;
+	}
+
+	.jedi_import_options_container table tr td.jedi_import_checkbox {
+		width: 40px;
+		text-align: center;
+	}
+
+	.jedi_import_options_container table tr td.jedi_doc_text {
+		padding-left: 20px;
+		opacity: 0.65; }
+	.jedi_import_options_container table tr:hover td.jedi_doc_text {
+		opacity: 1; }
+
+
+	.jedi_more_options_container th,
+	.jedi_support_options_container th {
+		text-align: left;
+		padding: 20px 10px 20px 20px;
+		width: 200px;
+	}
+	.jedi_import_options_container tr:not(.row2):hover,
+	.jedi_import_options_container tr:hover + tr.row2,
+	.jedi_more_options_container tr:hover,
+	.jedi_support_options_container tr:hover {
+		background-color: rgba(0,0,0,.05);
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out; }
+	.jedi_import_options_container input[type="checkbox"],
+	.jedi_more_options_container input[type="checkbox"],
+	.jedi_support_options_container input[type="checkbox"] {
+		zoom: 1.5 !important; }
+	.jedi_import_options_container tr:hover input[type="checkbox"],
+	.jedi_more_options_container tr:hover input[type="checkbox"],
+	.jedi_support_options_container tr:hover input[type="checkbox"] {
+		zoom: 1.55 !important;
+		box-shadow: 0px 0px 9px rgba(142, 142, 142, 0.5); }
+
+	.jedi_import_options_container h2,
+	.jedi_more_options_container h2,
+	.jedi_support_options_container h2,
+	.j-e-d-i-master_page_jedi_master_menu_license h2 {
+		margin: 27px 0px 10px;
+		font-weight: 900 !important;
+		font-size: 25px !important;
+		line-height: 1em;  }
+
+	.jedi_admin_checkbox_description {
+		font-weight: 200;
+		padding-left: 20px; }
+
+	/* Disabled Options */
+	.jedi_lite_disabled_option {
+		font-style: italic;
+		font-weight: 200;
+		padding-left: 20px; }
+
+	/* License Key */
+	.jedi_disabled_submit #submit {
+		color: #ddd !important;
+		background-color: #bbb !important;
+		border-color: #777 !important; }
+	.jedi_license_request {
+		padding-left: 20px;
+		font-size: 125%; }
+
+/*** RECOMMENDED PLUGINS ***/
+	.jedi_suggest_plugins_table {
+		max-width: 1080px;
+		margin: 0px 25px 50px;
+		border-spacing: 0px; }
+	.jedi_suggest_plugins_table td {
+		border-bottom: solid 1px #ddd;
+		height: 30px;
+	    vertical-align: middle;
+	}
+	.jedi_suggest_plugins_table td {
+		padding: 10px; }
+
+	.jedi_plugin_name_td {
+		width: 200px;
+	}
+	.jedi_plugin_name_td h4 {
+		margin-top: 0px;
+		margin-bottom: 5px;
+	}
+	.jedi_plugin_select_td {
+		width: 50px;
+		text-align: center;
+	}
+	.jedi_plugin_description_td {
+		width: 300px;
+	}
+	.jedi_plugin_info_td {
+		line-height: 1.35em;
+	}
+
+
+/*** ADDITIONAL OPTIONS PAGE ***/
+	.jedi_more_options_container { padding-right: 20px !important; }
+
+	/* Sub Items */
+	tr.jedi_options_subitem td { padding: 10px 50px; }
+	.jedi_options_subitem_description { padding-left: 10px; }
+
+	.jedi_more_options_container .posttype_slug {
+		padding-left: 20px;
+		font-style: italic;
+		font-weight: 200; }
+
+/*** DOCUMENTATION PAGE ***/
+	.jedi_documentation_page { max-width: 800px; }
+	.jedi_documentation_page h2 {
+		margin: 27px 0px 0px;
+		font-weight: 900;
+		font-size: 30px;
+		line-height: 1em; }
+
+	.jedi_documentation_item {
+		max-width: 600px;
+		margin-left: 25px;
+		margin-right: 25px; }
+	.jedi_documentation_item h4 {
+		padding-top: 3px;
+		margin-bottom: 0px;
+		font-size: 15px;
+		font-weight: 700; }
+	.jedi_documentation_item h4 + p {
+		margin-top: 5px;
+		margin-right: 20px;
+		padding-bottom: 10px;
+		border-bottom: solid 1px rgba(0,0,0,.05); }
+	.jedi_apprentice_checkbox_description {
+		padding-left: 20px;
+		font-weight: 600; }
+
+
+/*** SUPPORT PAGE ***/
+	.jedi_admin_support_info { padding: 0px 20px; }
+	.jedi_admin_support_info p { font-size: 125%; }
+	.jedi_admin_support_info a {
+		padding-left: 10px;
+		font-weight: bold; }
+
+
+/*** IMPORT PROCESSING REPORT ***/
+	.jedi_import_report_container :nth-child(n) { transition: all .5s ease; }
+	.importing_now { font-size: 120%; }
+
+	.jedi_import_report_line {
+		position: relative;
+		padding-left: 25px;
+	}
+	.jedi_status { opacity: 0; }
+	.importing_now .jedi_status { opacity: 1; }
+
+	.jedi_status,
+	.jedi_status::after {
+		position: absolute;
+		height: 100%;
+		width: 300px;
+		content: '';
+		border-radius: 3px;
+	}
+	.jedi_status::after { background-color: rgba(0,0,0,.25); }
+	.jedi_status {
+		margin-left: 50px;
+		width: 0px;
+	}
+
+	/* Gradient Progress Bar */
+	.importing_now .jedi_status {
+		background-size: 400% 400%;
+		-webkit-animation: Gradient 2s ease infinite;
+		-moz-animation: Gradient 2s ease infinite;
+		animation: Gradient 2s ease infinite;
+	}
+	@-webkit-keyframes Gradient {
+		0% { background-position: 0% 50% }
+		50% { background-position: 100% 50% }
+		100% { background-position: 0% 50% }
+	}
+	@-moz-keyframes Gradient {
+		0% { background-position: 0% 50% }
+		50% { background-position: 100% 50% }
+		100% { background-position: 0% 50% }
+	}
+	@keyframes Gradient {
+		0% { background-position: 0% 50% }
+		50% { background-position: 100% 50% }
+		100% { background-position: 0% 50% }
+	}
+
+	/* Importing Status Icon */
+	.jedi_import_icon {
+		position: absolute;
+		margin-left: -2em;
+		width: 1em;
+		height: 1em;
+		font-size: 1em;
+	}
+	.importing_now .jedi_import_icon {
+		position: absolute;
+		display: inline-block;
+		border: 3px solid rgba(0,0,0,.35);
+		border-radius: 50%;
+		-webkit-animation: jedi_importing_icon 2s linear infinite; /* Safari */
+		animation: jedi_importing_icon 2s linear infinite;
+	}
+	@-webkit-keyframes jedi_importing_icon {
+		0% { -webkit-transform: rotate(0deg); }
+		100% { -webkit-transform: rotate(360deg); }
+	}
+	@keyframes jedi_importing_icon {
+		0% { transform: rotate(0deg); }
+		100% { transform: rotate(360deg); }
+	}
+
+
+	/* Import Alerts */
+	#jedi_import_alerts_container > div {
+		background-color: #ddd;
+		max-width: 800px;
+		border: solid 2px rgba(0,0,0,.5);
+		padding: 20px;
+		border-radius: 5px;
+	}
+
+/*** JEDI SYSTEMS CHECK ***/
+	.jedi_systems_check {
+		margin: 10px 10px 20px;
+		padding: 0px 20px;
+		max-width: 50%;
+		border: solid 2px;
+	}
+
+
+
+/*** AFTER IMPORT - REMOVE CONTENT ***/
+	.jedi_after_import_message_container {
+		max-width: 800px;
+		margin-top: 20px;
+		background-color: rgba(0,0,0,.05);
+		padding: 10px 20px;
+		text-align: center;
+	}
+	.jedi_remove_demo_content_container .submit {
+		font-weight: 800;
+		text-align: center;
+	}
+	#after_import_remove_demo_content {
+		background-color: #ca4a1e;
+		color: #fff;
+		border: none;
+		font-weight: 600;
+		transition: all .35s ease;
+	}
+	#after_import_remove_demo_content:hover {
+		background-color: rgba(0,0,0,.75);
+	}

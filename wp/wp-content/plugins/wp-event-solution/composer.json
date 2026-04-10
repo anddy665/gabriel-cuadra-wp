@@ -1,0 +1,51 @@
+{
+    "name": "arraytics/eventin",
+    "autoload": {
+        "classmap": [
+            "base/",
+            "core/",
+            "utils/",
+            "traits/",
+            "widgets/",
+            "templates/"
+        ],
+        "psr-4": {
+            "Eventin\\": [
+                "base/",
+                "core/"
+            ]
+        }
+    },
+    "scripts": {
+        "wp": "vendor/bin/wp",
+        "make-pot": "vendor/bin/wp i18n make-pot . languages/eventin.pot --exclude=src,node_modules,vendor,build,.git,tools --skip-js"
+    },
+    "config": {
+        "process-timeout": 0
+    },
+    "authors": [
+        {
+            "name": "Arraytics",
+            "email": "arraytics@arraytics.com"
+        }
+    ],
+    "require": {
+        "themewinter/uninstaller_form": "dev-main",
+        "themewinter/email-notification-sdk": "dev-emarat/update-flow-calculation-logic"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/themewinter/uninstaller_form"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/themewinter/email-notification-sdk"
+        }
+    ],
+    "require-dev": {
+        "wp-cli/wp-cli": "^2.11",
+        "wp-cli/wp-cli-bundle": "^2.11",
+        "squizlabs/php_codesniffer": "3.*"
+    }
+}

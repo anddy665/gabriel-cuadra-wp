@@ -1,0 +1,996 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Eventin Divi Addon\n"
+"POT-Creation-Date: 2023-11-29 10:50+0600\n"
+"PO-Revision-Date: 2023-11-29 10:50+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: eventin-divi-addon.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: eventin-divi-addon.php:87
+msgid ""
+"In order to use eventin divi module, you must have installed and activated "
+"Eventin Plugin and Divi theme builder"
+msgstr ""
+
+#: includes/modules/AdvancedSearch/AdvancedSearch.php:15
+msgid "Eventin Advanced Search"
+msgstr ""
+
+#: includes/modules/AdvancedSearch/AdvancedSearch.php:41
+msgid "Button Text"
+msgstr ""
+
+#: includes/modules/AdvancedSearch/AdvancedSearch.php:44
+msgid "Type your title here"
+msgstr ""
+
+#: includes/modules/AdvancedSearch/AdvancedSearch.php:49
+msgid "Search Now"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:15
+msgid "Eventin Events"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:22
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:25
+#: includes/modules/EventsPro/EventsPro.php:25
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:25
+#: includes/modules/EventsTabs/EventsTabs.php:24
+#: includes/modules/EventsTabspro/EventsTabspro.php:25
+msgid "Event Style"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:26
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:30
+#: includes/modules/EventsPro/EventsPro.php:29
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:29
+#: includes/modules/EventsTabs/EventsTabs.php:28
+#: includes/modules/EventsTabspro/EventsTabspro.php:29
+msgid "Event 1"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:27
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:31
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:30
+#: includes/modules/EventsTabs/EventsTabs.php:29
+#: includes/modules/EventsTabspro/EventsTabspro.php:30
+msgid "Event 2"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:30
+#: includes/modules/EtnZoom/EtnZoom.php:29
+#: includes/modules/EtnZoom/EtnZoom.php:36
+#: includes/modules/EventsCalendar/EventsCalendar.php:33
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:35
+#: includes/modules/EventsPro/EventsPro.php:32
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:33
+#: includes/modules/EventsTabs/EventsTabs.php:32
+#: includes/modules/EventsTabspro/EventsTabspro.php:36
+msgid "Here you can choose the event style"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:33
+#: includes/modules/EventsCalendar/EventsCalendar.php:36
+#: includes/modules/EventsCalendarlist/EventsCalendarlist.php:25
+#: includes/modules/EventsCalendarpro/EventsCalendarpro.php:25
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:38
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:25
+#: includes/modules/EventsPro/EventsPro.php:35
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:36
+#: includes/modules/EventsTabs/EventsTabs.php:35
+#: includes/modules/EventsTabspro/EventsTabspro.php:39
+msgid "Event Category"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:36
+#: includes/modules/EtnEvents/EtnEvents.php:43
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:39
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:46
+#: includes/modules/EventsCalendar/EventsCalendar.php:39
+#: includes/modules/EventsCalendarlist/EventsCalendarlist.php:28
+#: includes/modules/EventsCalendarpro/EventsCalendarpro.php:28
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:41
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:48
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:28
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:35
+#: includes/modules/EventsPro/EventsPro.php:38
+#: includes/modules/EventsPro/EventsPro.php:45
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:39
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:46
+#: includes/modules/EventsTabs/EventsTabs.php:38
+#: includes/modules/EventsTabs/EventsTabs.php:45
+#: includes/modules/EventsTabspro/EventsTabspro.php:42
+#: includes/modules/EventsTabspro/EventsTabspro.php:49
+#: includes/modules/OrganizerPro/OrganizerPro.php:39
+#: includes/modules/OrganizerPro/OrganizerPro.php:46
+#: includes/modules/SpeakerPro/SpeakerPro.php:42
+#: includes/modules/SpeakerPro/SpeakerPro.php:49
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:43
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:50
+msgid "Leave checkboxes unchecked to select all"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:40
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:45
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:32
+#: includes/modules/EventsPro/EventsPro.php:42
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:43
+#: includes/modules/EventsTabs/EventsTabs.php:42
+#: includes/modules/EventsTabspro/EventsTabspro.php:46
+msgid "Event Tag"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:48
+#: includes/modules/EventsCalendar/EventsCalendar.php:44
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:53
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:40
+#: includes/modules/EventsPro/EventsPro.php:50
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:51
+#: includes/modules/EventsTabs/EventsTabs.php:50
+#: includes/modules/EventsTabspro/EventsTabspro.php:54
+msgid "Event count"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:51
+#: includes/modules/EventLocationPro/EventLocationPro.php:29
+#: includes/modules/EventsCalendar/EventsCalendar.php:47
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:56
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:43
+#: includes/modules/EventsPro/EventsPro.php:53
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:54
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:121
+#: includes/modules/EventsTabs/EventsTabs.php:53
+#: includes/modules/EventsTabspro/EventsTabspro.php:57
+msgid "Define the number of events that should be displayed per page."
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:57
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:121
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:108
+#: includes/modules/EventsPro/EventsPro.php:118
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:60
+#: includes/modules/EventsTabs/EventsTabs.php:59
+#: includes/modules/EventsTabspro/EventsTabspro.php:122
+msgid "Description Limit"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:60
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:124
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:111
+#: includes/modules/EventsPro/EventsPro.php:121
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:63
+#: includes/modules/EventsTabs/EventsTabs.php:62
+#: includes/modules/EventsTabspro/EventsTabspro.php:125
+msgid "Description limit."
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:65
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:61
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:48
+#: includes/modules/EventsPro/EventsPro.php:58
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:68
+#: includes/modules/EventsTabs/EventsTabs.php:67
+#: includes/modules/EventsTabspro/EventsTabspro.php:62
+msgid "Event column"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:69
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:64
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:65
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:52
+#: includes/modules/EventsPro/EventsPro.php:62
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:72
+#: includes/modules/EventsTabs/EventsTabs.php:71
+#: includes/modules/EventsTabspro/EventsTabspro.php:66
+#: includes/modules/OrganizerPro/OrganizerPro.php:64
+#: includes/modules/SpeakerPro/SpeakerPro.php:67
+msgid "3 Column"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:70
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:63
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:66
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:53
+#: includes/modules/EventsPro/EventsPro.php:63
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:73
+#: includes/modules/EventsTabs/EventsTabs.php:72
+#: includes/modules/EventsTabspro/EventsTabspro.php:67
+#: includes/modules/OrganizerPro/OrganizerPro.php:63
+#: includes/modules/SpeakerPro/SpeakerPro.php:66
+msgid "4 Column"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:71
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:65
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:67
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:54
+#: includes/modules/EventsPro/EventsPro.php:64
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:74
+#: includes/modules/EventsTabs/EventsTabs.php:73
+#: includes/modules/EventsTabspro/EventsTabspro.php:68
+#: includes/modules/OrganizerPro/OrganizerPro.php:65
+#: includes/modules/SpeakerPro/SpeakerPro.php:68
+msgid "2 Column"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:74
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:70
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:57
+#: includes/modules/EventsPro/EventsPro.php:67
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:77
+#: includes/modules/EventsTabs/EventsTabs.php:76
+#: includes/modules/EventsTabspro/EventsTabspro.php:71
+msgid "Here you can choose the event column"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:77
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:73
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:60
+#: includes/modules/EventsPro/EventsPro.php:70
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:80
+#: includes/modules/EventsTabs/EventsTabs.php:79
+#: includes/modules/EventsTabspro/EventsTabspro.php:74
+msgid "Event status filter By"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:81
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:77
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:64
+#: includes/modules/EventsPro/EventsPro.php:74
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:84
+#: includes/modules/EventsTabs/EventsTabs.php:83
+#: includes/modules/EventsTabspro/EventsTabspro.php:78
+msgid "All"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:82
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:78
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:65
+#: includes/modules/EventsPro/EventsPro.php:75
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:85
+#: includes/modules/EventsTabs/EventsTabs.php:84
+#: includes/modules/EventsTabspro/EventsTabspro.php:79
+msgid "Upcoming Event"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:83
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:79
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:66
+#: includes/modules/EventsPro/EventsPro.php:76
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:86
+#: includes/modules/EventsTabs/EventsTabs.php:85
+#: includes/modules/EventsTabspro/EventsTabspro.php:80
+msgid "Expire Event"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:86
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:82
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:69
+#: includes/modules/EventsPro/EventsPro.php:79
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:89
+#: includes/modules/EventsTabs/EventsTabs.php:88
+#: includes/modules/EventsTabspro/EventsTabspro.php:83
+msgid "Here you can choose the event filter"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:89
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:71
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:85
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:72
+#: includes/modules/EventsPro/EventsPro.php:82
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:92
+#: includes/modules/EventsTabs/EventsTabs.php:91
+#: includes/modules/EventsTabspro/EventsTabspro.php:86
+#: includes/modules/SpeakerPro/SpeakerPro.php:74
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:72
+msgid "Order Event By"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:93
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:75
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:89
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:76
+#: includes/modules/EventsPro/EventsPro.php:86
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:96
+#: includes/modules/EventsTabs/EventsTabs.php:95
+#: includes/modules/EventsTabspro/EventsTabspro.php:90
+#: includes/modules/OrganizerPro/OrganizerPro.php:75
+#: includes/modules/SpeakerPro/SpeakerPro.php:78
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:76
+msgid "Id"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:94
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:76
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:90
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:77
+#: includes/modules/EventsPro/EventsPro.php:87
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:97
+#: includes/modules/EventsTabs/EventsTabs.php:96
+#: includes/modules/EventsTabspro/EventsTabspro.php:91
+#: includes/modules/OrganizerPro/OrganizerPro.php:76
+#: includes/modules/SpeakerPro/SpeakerPro.php:79
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:77
+msgid "Title"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:95
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:77
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:91
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:78
+#: includes/modules/EventsPro/EventsPro.php:88
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:98
+#: includes/modules/EventsTabs/EventsTabs.php:97
+#: includes/modules/EventsTabspro/EventsTabspro.php:92
+#: includes/modules/OrganizerPro/OrganizerPro.php:77
+#: includes/modules/SpeakerPro/SpeakerPro.php:80
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:78
+msgid "Post Date"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:96
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:78
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:92
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:79
+#: includes/modules/EventsPro/EventsPro.php:89
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:99
+#: includes/modules/EventsTabs/EventsTabs.php:98
+#: includes/modules/EventsTabspro/EventsTabspro.php:93
+#: includes/modules/OrganizerPro/OrganizerPro.php:78
+#: includes/modules/SpeakerPro/SpeakerPro.php:81
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:79
+msgid "Event Start Date"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:97
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:79
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:93
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:80
+#: includes/modules/EventsPro/EventsPro.php:90
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:100
+#: includes/modules/EventsTabs/EventsTabs.php:99
+#: includes/modules/EventsTabspro/EventsTabspro.php:94
+#: includes/modules/OrganizerPro/OrganizerPro.php:79
+#: includes/modules/SpeakerPro/SpeakerPro.php:82
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:80
+msgid "Event End Date"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:100
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:82
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:96
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:83
+#: includes/modules/EventsPro/EventsPro.php:93
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:103
+#: includes/modules/EventsTabs/EventsTabs.php:102
+#: includes/modules/EventsTabspro/EventsTabspro.php:97
+#: includes/modules/OrganizerPro/OrganizerPro.php:82
+#: includes/modules/SpeakerPro/SpeakerPro.php:85
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:83
+msgid "Here you can choose the event order by"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:103
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:99
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:86
+#: includes/modules/EventsPro/EventsPro.php:96
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:106
+#: includes/modules/EventsTabs/EventsTabs.php:105
+#: includes/modules/EventsTabspro/EventsTabspro.php:100
+msgid "Event Order"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:107
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:89
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:103
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:90
+#: includes/modules/EventsPro/EventsPro.php:100
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:110
+#: includes/modules/EventsTabs/EventsTabs.php:109
+#: includes/modules/EventsTabspro/EventsTabspro.php:104
+#: includes/modules/OrganizerPro/OrganizerPro.php:89
+#: includes/modules/ScheduleListsPro/ScheduleListsPro.php:35
+#: includes/modules/ScheduleTabs/ScheduleTabs.php:46
+#: includes/modules/ScheduleTabsPro/ScheduleTabsPro.php:36
+#: includes/modules/SpeakerPro/SpeakerPro.php:92
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:90
+msgid "Descending"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:108
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:90
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:104
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:91
+#: includes/modules/EventsPro/EventsPro.php:101
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:111
+#: includes/modules/EventsTabs/EventsTabs.php:110
+#: includes/modules/EventsTabspro/EventsTabspro.php:105
+#: includes/modules/OrganizerPro/OrganizerPro.php:90
+#: includes/modules/ScheduleListsPro/ScheduleListsPro.php:36
+#: includes/modules/ScheduleTabs/ScheduleTabs.php:47
+#: includes/modules/ScheduleTabsPro/ScheduleTabsPro.php:37
+#: includes/modules/SpeakerPro/SpeakerPro.php:93
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:91
+msgid "Ascending"
+msgstr ""
+
+#: includes/modules/EtnEvents/EtnEvents.php:111
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:93
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:107
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:94
+#: includes/modules/EventsPro/EventsPro.php:104
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:114
+#: includes/modules/EventsTabs/EventsTabs.php:113
+#: includes/modules/EventsTabspro/EventsTabspro.php:108
+#: includes/modules/OrganizerPro/OrganizerPro.php:93
+#: includes/modules/ScheduleListsPro/ScheduleListsPro.php:39
+#: includes/modules/ScheduleTabs/ScheduleTabs.php:50
+#: includes/modules/ScheduleTabsPro/ScheduleTabsPro.php:40
+#: includes/modules/SpeakerPro/SpeakerPro.php:96
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:94
+msgid "Here you can choose the event order"
+msgstr ""
+
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:17
+msgid "Eventin Speaker"
+msgstr ""
+
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:24
+#: includes/modules/SpeakerPro/SpeakerPro.php:25
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:25
+msgid "Speaker Style"
+msgstr ""
+
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:28
+#: includes/modules/SpeakerPro/SpeakerPro.php:29
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:30
+msgid "Speaker 1"
+msgstr ""
+
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:29
+#: includes/modules/SpeakerPro/SpeakerPro.php:30
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:31
+msgid "Speaker 2"
+msgstr ""
+
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:30
+#: includes/modules/SpeakerPro/SpeakerPro.php:31
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:32
+msgid "Speaker 3"
+msgstr ""
+
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:33
+#: includes/modules/OrganizerPro/OrganizerPro.php:33
+#: includes/modules/SpeakerPro/SpeakerPro.php:36
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:37
+msgid "Here you can choose the speaker style"
+msgstr ""
+
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:36
+#: includes/modules/SpeakerPro/SpeakerPro.php:39
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:40
+msgid "Speaker"
+msgstr ""
+
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:43
+#: includes/modules/SpeakerPro/SpeakerPro.php:46
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:47
+msgid "Speaker Category"
+msgstr ""
+
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:51
+#: includes/modules/SpeakerPro/SpeakerPro.php:54
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:55
+msgid "Speaker Count"
+msgstr ""
+
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:54
+#: includes/modules/OrganizerPro/OrganizerPro.php:54
+#: includes/modules/SpeakerPro/SpeakerPro.php:57
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:58
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:67
+msgid "Define the number of speakers that should be displayed per page."
+msgstr ""
+
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:59
+#: includes/modules/SpeakerPro/SpeakerPro.php:62
+msgid "Speaker Column"
+msgstr ""
+
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:68
+#: includes/modules/OrganizerPro/OrganizerPro.php:68
+#: includes/modules/SpeakerPro/SpeakerPro.php:71
+msgid "Here you can choose the speaker column"
+msgstr ""
+
+#: includes/modules/EtnSpeaker/EtnSpeaker.php:85
+#: includes/modules/SpeakerPro/SpeakerPro.php:88
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:86
+msgid "Speaker Order"
+msgstr ""
+
+#: includes/modules/EtnZoom/EtnZoom.php:15
+msgid "Eventin Zoom"
+msgstr ""
+
+#: includes/modules/EtnZoom/EtnZoom.php:22
+msgid "Zoom Style"
+msgstr ""
+
+#: includes/modules/EtnZoom/EtnZoom.php:26
+#: includes/modules/EventsCalendar/EventsCalendar.php:29
+msgid "Style 1"
+msgstr ""
+
+#: includes/modules/EtnZoom/EtnZoom.php:32
+msgid "Select Zoom Meeting"
+msgstr ""
+
+#: includes/modules/EtnZoom/EtnZoom.php:39
+msgid "Link only"
+msgstr ""
+
+#: includes/modules/EtnZoom/EtnZoom.php:43
+#: includes/modules/EventsAttendeeListPro/EventsAttendeeListPro.php:34
+#: includes/modules/EventsAttendeeListPro/EventsAttendeeListPro.php:44
+#: includes/modules/EventsCalendar/EventsCalendar.php:68
+#: includes/modules/EventsCalendarpro/EventsCalendarpro.php:36
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:114
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:133
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:143
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:153
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:163
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:101
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:120
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:130
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:140
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:150
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:160
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:170
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:180
+#: includes/modules/EventsPro/EventsPro.php:111
+#: includes/modules/EventsPro/EventsPro.php:130
+#: includes/modules/EventsPro/EventsPro.php:140
+#: includes/modules/EventsPro/EventsPro.php:150
+#: includes/modules/EventsPro/EventsPro.php:160
+#: includes/modules/EventsTabspro/EventsTabspro.php:115
+#: includes/modules/EventsTabspro/EventsTabspro.php:134
+#: includes/modules/EventsTabspro/EventsTabspro.php:144
+#: includes/modules/EventsTabspro/EventsTabspro.php:154
+#: includes/modules/EventsTabspro/EventsTabspro.php:164
+#: includes/modules/EventsTicketFormPro/EventsTicketFormPro.php:34
+#: includes/modules/SpeakerPro/SpeakerPro.php:103
+#: includes/modules/SpeakerPro/SpeakerPro.php:113
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:101
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:111
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:121
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:131
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:141
+msgid "Yes"
+msgstr ""
+
+#: includes/modules/EtnZoom/EtnZoom.php:44
+#: includes/modules/EventsAttendeeListPro/EventsAttendeeListPro.php:35
+#: includes/modules/EventsAttendeeListPro/EventsAttendeeListPro.php:45
+#: includes/modules/EventsCalendar/EventsCalendar.php:69
+#: includes/modules/EventsCalendarpro/EventsCalendarpro.php:37
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:115
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:134
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:144
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:154
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:164
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:102
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:121
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:131
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:141
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:151
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:161
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:171
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:181
+#: includes/modules/EventsPro/EventsPro.php:112
+#: includes/modules/EventsPro/EventsPro.php:131
+#: includes/modules/EventsPro/EventsPro.php:141
+#: includes/modules/EventsPro/EventsPro.php:151
+#: includes/modules/EventsPro/EventsPro.php:161
+#: includes/modules/EventsTabspro/EventsTabspro.php:116
+#: includes/modules/EventsTabspro/EventsTabspro.php:135
+#: includes/modules/EventsTabspro/EventsTabspro.php:145
+#: includes/modules/EventsTabspro/EventsTabspro.php:155
+#: includes/modules/EventsTabspro/EventsTabspro.php:165
+#: includes/modules/EventsTicketFormPro/EventsTicketFormPro.php:35
+#: includes/modules/SpeakerPro/SpeakerPro.php:104
+#: includes/modules/SpeakerPro/SpeakerPro.php:114
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:102
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:112
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:122
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:132
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:142
+msgid "No"
+msgstr ""
+
+#: includes/modules/EventLocationPro/EventLocationPro.php:18
+msgid "Event Location Pro"
+msgstr ""
+
+#: includes/modules/EventLocationPro/EventLocationPro.php:26
+msgid "count"
+msgstr ""
+
+#: includes/modules/EventsAttendeeListPro/EventsAttendeeListPro.php:15
+msgid "Events Attendee List"
+msgstr ""
+
+#: includes/modules/EventsAttendeeListPro/EventsAttendeeListPro.php:22
+#: includes/modules/EventsCountdownPro/EventsCountdownPro.php:22
+#: includes/modules/EventsTicketFormPro/EventsTicketFormPro.php:22
+#: includes/modules/RecurringEventPro/RecurringEventPro.php:22
+#: includes/modules/RelatedEventPro/RelatedEventPro.php:22
+msgid "Select Event"
+msgstr ""
+
+#: includes/modules/EventsAttendeeListPro/EventsAttendeeListPro.php:27
+#: includes/modules/EventsCountdownPro/EventsCountdownPro.php:27
+#: includes/modules/EventsTicketFormPro/EventsTicketFormPro.php:27
+#: includes/modules/RecurringEventPro/RecurringEventPro.php:27
+#: includes/modules/RelatedEventPro/RelatedEventPro.php:27
+msgid "Here you can choose the event"
+msgstr ""
+
+#: includes/modules/EventsAttendeeListPro/EventsAttendeeListPro.php:30
+msgid "Show Avatar"
+msgstr ""
+
+#: includes/modules/EventsAttendeeListPro/EventsAttendeeListPro.php:40
+msgid "Show Email"
+msgstr ""
+
+#: includes/modules/EventsCalendar/EventsCalendar.php:18
+msgid "Event Calendar"
+msgstr ""
+
+#: includes/modules/EventsCalendar/EventsCalendar.php:25
+msgid "Style"
+msgstr ""
+
+#: includes/modules/EventsCalendar/EventsCalendar.php:30
+msgid "Style 2"
+msgstr ""
+
+#: includes/modules/EventsCalendar/EventsCalendar.php:52
+msgid "Calendar Display"
+msgstr ""
+
+#: includes/modules/EventsCalendar/EventsCalendar.php:56
+msgid "Left"
+msgstr ""
+
+#: includes/modules/EventsCalendar/EventsCalendar.php:57
+msgid "Full Width"
+msgstr ""
+
+#: includes/modules/EventsCalendar/EventsCalendar.php:58
+msgid "Right"
+msgstr ""
+
+#: includes/modules/EventsCalendar/EventsCalendar.php:61
+msgid "Here you can choose the calendar display"
+msgstr ""
+
+#: includes/modules/EventsCalendar/EventsCalendar.php:64
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:110
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:97
+#: includes/modules/EventsPro/EventsPro.php:107
+#: includes/modules/EventsTabspro/EventsTabspro.php:111
+msgid "Show Description"
+msgstr ""
+
+#: includes/modules/EventsCalendarlist/EventsCalendarlist.php:18
+msgid "Event Calendar Pro List"
+msgstr ""
+
+#: includes/modules/EventsCalendarlist/EventsCalendarlist.php:32
+#: includes/modules/EventsCalendarpro/EventsCalendarpro.php:42
+msgid "Calendar View"
+msgstr ""
+
+#: includes/modules/EventsCalendarlist/EventsCalendarlist.php:36
+#: includes/modules/EventsCalendarpro/EventsCalendarpro.php:46
+msgid "Monthly"
+msgstr ""
+
+#: includes/modules/EventsCalendarlist/EventsCalendarlist.php:37
+#: includes/modules/EventsCalendarpro/EventsCalendarpro.php:47
+msgid "Weekly"
+msgstr ""
+
+#: includes/modules/EventsCalendarlist/EventsCalendarlist.php:38
+#: includes/modules/EventsCalendarpro/EventsCalendarpro.php:48
+msgid "Daily"
+msgstr ""
+
+#: includes/modules/EventsCalendarlist/EventsCalendarlist.php:41
+#: includes/modules/EventsCalendarpro/EventsCalendarpro.php:51
+msgid "Here you can choose the calendar view"
+msgstr ""
+
+#: includes/modules/EventsCalendarpro/EventsCalendarpro.php:18
+msgid "Event Calendar Pro"
+msgstr ""
+
+#: includes/modules/EventsCalendarpro/EventsCalendarpro.php:32
+msgid "All Day Slot?"
+msgstr ""
+
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:18
+msgid "Events Classic Pro"
+msgstr ""
+
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:32
+#: includes/modules/EventsTabspro/EventsTabspro.php:31
+msgid "Event 3"
+msgstr ""
+
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:129
+#: includes/modules/EventsPro/EventsPro.php:126
+#: includes/modules/EventsTabspro/EventsTabspro.php:130
+msgid "Show Attendee Count"
+msgstr ""
+
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:139
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:116
+#: includes/modules/EventsPro/EventsPro.php:136
+#: includes/modules/EventsTabspro/EventsTabspro.php:140
+msgid "Show Button"
+msgstr ""
+
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:149
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:166
+#: includes/modules/EventsPro/EventsPro.php:146
+#: includes/modules/EventsTabspro/EventsTabspro.php:150
+msgid "Show Thumbnail"
+msgstr ""
+
+#: includes/modules/EventsClassicPro/EventsClassicPro.php:159
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:176
+#: includes/modules/EventsPro/EventsPro.php:156
+#: includes/modules/EventsTabspro/EventsTabspro.php:160
+msgid "Show Category"
+msgstr ""
+
+#: includes/modules/EventsCountdownPro/EventsCountdownPro.php:15
+msgid "Eventin Events CountDown Pro"
+msgstr ""
+
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:18
+msgid "Events Oneline Pro"
+msgstr ""
+
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:126
+msgid "Show Event Location"
+msgstr ""
+
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:136
+msgid "Show Child Event"
+msgstr ""
+
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:146
+msgid "Show Parent Event"
+msgstr ""
+
+#: includes/modules/EventsOnelinePro/EventsOnelinePro.php:156
+msgid "Show end Date"
+msgstr ""
+
+#: includes/modules/EventsPro/EventsPro.php:18
+msgid "Eventin Events Pro"
+msgstr ""
+
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:18
+msgid "Events Slider Pro"
+msgstr ""
+
+#: includes/modules/EventsSliderpro/EventsSliderpro.php:118
+msgid "Slider count"
+msgstr ""
+
+#: includes/modules/EventsTabs/EventsTabs.php:17
+msgid "Eventin Events Tabs"
+msgstr ""
+
+#: includes/modules/EventsTabspro/EventsTabspro.php:18
+msgid "Eventin Events Tabs Pro"
+msgstr ""
+
+#: includes/modules/EventsTabspro/EventsTabspro.php:32
+msgid "Event 4"
+msgstr ""
+
+#: includes/modules/EventsTicketFormPro/EventsTicketFormPro.php:15
+msgid "Events Ticket Form Pro"
+msgstr ""
+
+#: includes/modules/EventsTicketFormPro/EventsTicketFormPro.php:30
+msgid "Show Title"
+msgstr ""
+
+#: includes/modules/OrganizerPro/OrganizerPro.php:18
+msgid "Eventin Organizer Pro"
+msgstr ""
+
+#: includes/modules/OrganizerPro/OrganizerPro.php:25
+msgid "Organizer Style"
+msgstr ""
+
+#: includes/modules/OrganizerPro/OrganizerPro.php:29
+msgid "Organizer 1"
+msgstr ""
+
+#: includes/modules/OrganizerPro/OrganizerPro.php:30
+msgid "Organizer 2"
+msgstr ""
+
+#: includes/modules/OrganizerPro/OrganizerPro.php:36
+msgid "Organizer"
+msgstr ""
+
+#: includes/modules/OrganizerPro/OrganizerPro.php:43
+msgid "Organizer Category"
+msgstr ""
+
+#: includes/modules/OrganizerPro/OrganizerPro.php:51
+msgid "Organizer count"
+msgstr ""
+
+#: includes/modules/OrganizerPro/OrganizerPro.php:59
+msgid "Organizer column"
+msgstr ""
+
+#: includes/modules/OrganizerPro/OrganizerPro.php:71
+msgid "Order By"
+msgstr ""
+
+#: includes/modules/OrganizerPro/OrganizerPro.php:85
+msgid "Order"
+msgstr ""
+
+#: includes/modules/RecurringEventPro/RecurringEventPro.php:15
+msgid "Recurring Events Pro"
+msgstr ""
+
+#: includes/modules/RelatedEventPro/RelatedEventPro.php:15
+msgid "Related Events Pro"
+msgstr ""
+
+#: includes/modules/ScheduleLists/ScheduleLists.php:17
+msgid "Eventin schedule Lists"
+msgstr ""
+
+#: includes/modules/ScheduleLists/ScheduleLists.php:24
+#: includes/modules/ScheduleTabs/ScheduleTabs.php:25
+msgid "Schedule Style"
+msgstr ""
+
+#: includes/modules/ScheduleLists/ScheduleLists.php:28
+#: includes/modules/ScheduleTabs/ScheduleTabs.php:29
+msgid "Schedule 1"
+msgstr ""
+
+#: includes/modules/ScheduleLists/ScheduleLists.php:31
+#: includes/modules/ScheduleTabs/ScheduleTabs.php:32
+msgid "Here you can choose the schedule Style"
+msgstr ""
+
+#: includes/modules/ScheduleLists/ScheduleLists.php:34
+#: includes/modules/ScheduleListsPro/ScheduleListsPro.php:24
+#: includes/modules/ScheduleTabs/ScheduleTabs.php:35
+#: includes/modules/ScheduleTabsPro/ScheduleTabsPro.php:25
+msgid "Schedule"
+msgstr ""
+
+#: includes/modules/ScheduleLists/ScheduleLists.php:37
+#: includes/modules/ScheduleListsPro/ScheduleListsPro.php:27
+msgid "Select the schedule"
+msgstr ""
+
+#: includes/modules/ScheduleListsPro/ScheduleListsPro.php:17
+msgid "Eventin schedule Lists Pro"
+msgstr ""
+
+#: includes/modules/ScheduleListsPro/ScheduleListsPro.php:31
+#: includes/modules/ScheduleTabs/ScheduleTabs.php:42
+#: includes/modules/ScheduleTabsPro/ScheduleTabsPro.php:32
+msgid "Schedule Order"
+msgstr ""
+
+#: includes/modules/ScheduleTabs/ScheduleTabs.php:18
+msgid "Eventin schedule Tab"
+msgstr ""
+
+#: includes/modules/ScheduleTabs/ScheduleTabs.php:38
+#: includes/modules/ScheduleTabsPro/ScheduleTabsPro.php:28
+msgid "Need to check atleast one schedule"
+msgstr ""
+
+#: includes/modules/ScheduleTabsPro/ScheduleTabsPro.php:18
+msgid "Eventin schedule Tab Pro"
+msgstr ""
+
+#: includes/modules/SpeakerPro/SpeakerPro.php:18
+msgid "Eventin Speaker Pro"
+msgstr ""
+
+#: includes/modules/SpeakerPro/SpeakerPro.php:32
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:33
+msgid "Speaker 4"
+msgstr ""
+
+#: includes/modules/SpeakerPro/SpeakerPro.php:33
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:34
+msgid "Speaker 5"
+msgstr ""
+
+#: includes/modules/SpeakerPro/SpeakerPro.php:99
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:97
+msgid "Show Social"
+msgstr ""
+
+#: includes/modules/SpeakerPro/SpeakerPro.php:109
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:107
+msgid "Show Designation"
+msgstr ""
+
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:18
+msgid "Eventin Speaker Slider"
+msgstr ""
+
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:64
+msgid "Slider Count"
+msgstr ""
+
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:117
+msgid "Slider Auto Play"
+msgstr ""
+
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:127
+msgid "Show Slider Nav"
+msgstr ""
+
+#: includes/modules/SpeakerSlider/SpeakerSlider.php:137
+msgid "Show Slider Dots"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Eventin Divi Addon"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://product.themewinter.com/eventin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Simple and Easy to use Event Management Solution With Divi."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themewinter"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themewinter.com/"
+msgstr ""
