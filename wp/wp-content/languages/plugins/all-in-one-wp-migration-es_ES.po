@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - All-in-One WP Migration and Backup - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-03-03 13:51:53+0000\n"
+"PO-Revision-Date: 2026-04-22 22:05:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,30 @@ msgstr ""
 "X-Generator: GlotPress/4.0.3\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - All-in-One WP Migration and Backup - Stable (latest release)\n"
+
+#: lib/model/import/class-ai1wm-import-validate-crc.php:129
+msgid "This backup file is damaged and can't be imported.<br />Try downloading or transferring the file again.<br /><br /><strong>Reason:</strong> File integrity check failed (CRC mismatch). <a href=\"https://help.servmask.com/knowledgebase/import-failed-crc-mismatch/\" target=\"_blank\">Technical details</a>"
+msgstr "Este archivo de copia de seguridad está dañado y no se puede importar.<br />Intenta descargar o transferir el archivo de nuevo.<br /><br /><strong>Motivo:</strong> Fallo en la comprobación de la integridad del archivo (discrepancia en el CRC). <a href=\"https://help.servmask.com/knowledgebase/import-failed-crc-mismatch/\" target=\"_blank\">Detalles técnicos</a>"
+
+#: lib/model/import/class-ai1wm-import-validate-crc.php:43
+msgid "Validating archive checksum..."
+msgstr "Comprobando la suma de comprobación del archivo..."
+
+#: lib/model/export/class-ai1wm-export-archive-crc.php:38
+msgid "Calculating archive checksum..."
+msgstr "Calculando la suma de comprobación del archivo..."
+
+#: lib/view/common/share-buttons.php:56 lib/view/common/share-buttons.php:57
+msgid "Subscribe on YouTube"
+msgstr "Suscríbete en YouTube"
+
+#: lib/view/common/share-buttons.php:47 lib/view/common/share-buttons.php:48
+msgid "Share on Facebook"
+msgstr "Compartir en Facebook"
+
+#: lib/view/common/share-buttons.php:38 lib/view/common/share-buttons.php:39
+msgid "Share on X"
+msgstr "Compartir en X"
 
 #: lib/model/import/class-ai1wm-import-validate.php:65
 msgid "Unpacking configuration..."
@@ -454,7 +478,7 @@ msgstr "Archivos de contenido recopilados."
 msgid "Gathering content files..."
 msgstr "Recopilando archivos de contenido..."
 
-#: lib/model/export/class-ai1wm-export-database.php:164
+#: lib/model/export/class-ai1wm-export-database.php:165
 msgid "Database exported."
 msgstr "Base de datos exportada."
 
@@ -982,7 +1006,7 @@ msgstr "Error: %s"
 
 #. translators: 1: Number of files, 2: Progress.
 #: lib/model/export/class-ai1wm-export-themes.php:109
-#: lib/model/export/class-ai1wm-export-themes.php:152
+#: lib/model/export/class-ai1wm-export-themes.php:153
 msgid "Archiving %1$d theme files...<br />%2$d%% complete"
 msgstr "Archivando %1$d archivos de tema...<br />%2$d%% completado"
 
@@ -1012,13 +1036,13 @@ msgstr "Traducir"
 
 #. translators: 1: Number of files, 2: Progress.
 #: lib/model/export/class-ai1wm-export-media.php:109
-#: lib/model/export/class-ai1wm-export-media.php:152
+#: lib/model/export/class-ai1wm-export-media.php:153
 msgid "Archiving %1$d media files...<br />%2$d%% complete"
 msgstr "Archivando %1$d archivos de medios...<br />%2$d%% completado"
 
 #. translators: 1: Number of files, 2: Progress.
 #: lib/model/export/class-ai1wm-export-content.php:109
-#: lib/model/export/class-ai1wm-export-content.php:152
+#: lib/model/export/class-ai1wm-export-content.php:153
 msgid "Archiving %1$d content files...<br />%2$d%% complete"
 msgstr "Archivando %1$d archivos de contenido...<br />%2$d%% completado"
 
@@ -1111,7 +1135,7 @@ msgstr "Arrastra y suelta una copia de seguridad para importarla"
 
 #. translators: 1: Progress, 2: Number of records.
 #: lib/model/export/class-ai1wm-export-database.php:81
-#: lib/model/export/class-ai1wm-export-database.php:191
+#: lib/model/export/class-ai1wm-export-database.php:192
 msgid "Exporting database...<br />%1$d%% complete<br />%2$s records saved"
 msgstr "Exportando la base de datos...<br />%1$d%% completado<br />%2$s registros guardados"
 
@@ -1350,7 +1374,7 @@ msgstr "Renombrando el archivo exportado..."
 
 #. translators: 1: Number of files, 2: Progress.
 #: lib/model/export/class-ai1wm-export-plugins.php:109
-#: lib/model/export/class-ai1wm-export-plugins.php:152
+#: lib/model/export/class-ai1wm-export-plugins.php:153
 msgid "Archiving %1$d plugin files...<br />%2$d%% complete"
 msgstr "Archivando %1$d archivos de plugins...<br />%2$d%% completado"
 
