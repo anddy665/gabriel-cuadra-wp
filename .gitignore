@@ -42,3 +42,4 @@ composer.lock
 node_modules/
 dist/
 build/
+wp/wp-content/ai1wm-backups/
